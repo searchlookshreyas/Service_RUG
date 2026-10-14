@@ -1,0 +1,38 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environment & cache
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Deploy archives & Zip files
+*.zip
+*.tar.gz
+
+# Scratch directory & temporary outputs
+scratch/
+debug_output/
+*.log
+
+# Test & verification scripts / sample data
+test_run.py
+cleanup_test_data.py
+check_mongo.py
+reparse_local_output.py
+sample_results.json
+
+# IDE & OS metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Agent metadata
+.agents/
